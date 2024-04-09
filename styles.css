@@ -1,0 +1,45 @@
+body {
+    font-family: 'Gothic A1', sans-serif; /* Substitua pela sua fonte gótica preferida se necessário */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('R\ \(1\).jpg'); /* Escolha uma imagem de fundo gótica */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f8f8f2; /* Um tom claro para contraste com o fundo escuro */
+}
+
+.container {
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+}
+
+h1 {
+    font-family: 'Cinzel', serif; /* Uma fonte com vibrações góticas */
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ff5555; /* Um toque de cor que ainda se alinha ao tema gótico */
+}
+
+p {
+    font-size: 1.5em; /* Um pouco maior para facilitar a leitura */
+    color: #f8f8f2;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #333; /* Mais escuro para o estilo gótico */
+    color: #fff;
+    border: 2px solid #f8f8f2; /* Adiciona um contorno para o botão */
+    border-radius: 5px;
+    text-shadow: none; /* Removido para um look mais limpo e gótico */
+}
+
+button:hover {
+    background-color: #444; /* Um pouco mais claro ao passar o mouse */
+}
